@@ -1,5 +1,5 @@
 # slow-test-compile
-Reproducer for https://stackoverflow.com/posts/7015154
+Reproducer for https://stackoverflow.com/questions/70151545/compiling-java-unit-tests-very-slow
 
 Build with 
 ```
