@@ -92,7 +92,7 @@ class BaseEntityTest {
         assertThat(customer1.equals(customer2)).isFalse();
 
         customer1.setId("someId");
-        assertThat(customer1.getId()).isEqualTo(customer2.getId());
+        assertThat(customer1.getId()).isEqualTo("foo");
         assertThat(customer1.equals(customer2)).isTrue();
 
         ObjectIdEntity<String> otherObjectIdEntity = new Country();
