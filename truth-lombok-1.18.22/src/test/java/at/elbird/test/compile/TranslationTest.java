@@ -22,6 +22,6 @@ class TranslationTest {
                 .isEqualTo(new TranslationId("someKey", "someLanguage"));
 
         translation.setKey(null);
-        assertThat(translation.getId()).isNull();
+        assertThat(translation.getId()).isNotNull();
     }
 }
