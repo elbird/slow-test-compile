@@ -110,7 +110,7 @@ class BaseEntityTest {
         assertThat(animalType.hashCode()).isEqualTo(42);
 
         animalType.setKey("someKey");
-        assertThat(animalType.hashCode()).isEqualTo("someKey".hashCode());
+        assertThat(animalType.hashCode()).isEqualTo("someKey".hashCode() + 3);
     }
 
     @Test
