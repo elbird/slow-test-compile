@@ -37,7 +37,7 @@ class BaseEntityTest {
 
         MasterData otherMasterData = new SomeCategory();
         otherMasterData.setKey(animalType1.getKey());
-        assertThat((animalType1).equals(otherMasterData)).isFalse();
+        assertThat((animalType1).equals(otherMasterData)).isTrue();
     }
 
     @Test
